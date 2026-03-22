@@ -1,82 +1,55 @@
 using UnityEngine;
-// using System.Collections.Generic;
-// using DungeonArchitect;
-// using DungeonArchitect.Builders.GridFlow;
+using UnityEditor;
 
-
-public class EntryPlacer : MonoBehaviour{
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+public class EntryPlacer:MonoBehaviour{
     public GameObject entryPrefab;
+    public Component dungeonQuery;
     public Transform startAnchor;
+
+    private const string SpawnedName = "DEBUG_ENTRY";
 
     [ContextMenu("Place Entry")]
     public void PlaceEntry()
     {
-        if(entryPrefab == null)
-        {
-            Debug.LogError("EntryPlacer: entryPrefab is missing.");
+        if(entryPrefab == null){
+            Debug.LogError("EntryPlacer: Missing prefab ");
             return;
-        }
-        if(startAnchor==null){Debug.LogError("EntryPlacer: startAnchor is missing.");
-        return;
-        }
-        GameObject oldEntry = GameObject.Find("DEBUG_ENTRY");
-        if(oldEntry != null){
+        } 
+        GameObject oldEntry = GameObject.Find(SpawnedName);
+        if(oldEntry != null)
+        {
             DestroyImmediate(oldEntry);
         }
-        GameObject newEntry = Instantiate(entryPrefab,startAnchor.position,startAnchor.rotation);
-        newEntry.name = "DEBUG_ENTRY";
+        // GameObject newEntry = Instantiate(entryPrefab, startAnchor.position, Quaternion.identity);
+
+        Vector3 spawnPos = startAnchor != null ? startAnchor.position : transform.position;
+
+        var queryType = dungeonQuery.GetType();
+        var method = queryType.GetMethod("GetRandomCellOfType");
+
+        if(method != null)
+        {
+            object result = method.Invoke(dungeonQuery,new object[]{"Room"});
+            if(result is Vector3 roomPos){
+                spawnPos = roomPos;
+            }
+        }
+        GameObject newEntry = Instantiate(entryPrefab,spawnPos,Quaternion.identity);
+
+
+        newEntry.name = SpawnedName;
+
+        Debug.Log("Entry placed from generated dungeon query");
     }
- }
+    [ContextMenu("BuildDungeon + Place Place Entry")]
+    public void BuildDungeonAndPlaceEntry()
+    {
+        SendMessage("Build",SendMessageOptions.DontRequireReceiver);
+        EditorApplication.delayCall += DelayedPlaceEntry;
+
+    }
+    private void DelayedPlaceEntry(){
+        EditorApplication.delayCall -= DelayedPlaceEntry;
+        PlaceEntry();
+    }
+    }

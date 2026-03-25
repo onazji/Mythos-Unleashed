@@ -1,3 +1,9 @@
+/*
+Onazji Drayden Entry Placer.
+Generated Entry Placement now reads dungeon main path
+Entry Placement now queries DA
+*/
+
 using UnityEngine;
 using UnityEditor;
 
@@ -20,20 +26,60 @@ public class EntryPlacer:MonoBehaviour{
         {
             DestroyImmediate(oldEntry);
         }
-        // GameObject newEntry = Instantiate(entryPrefab, startAnchor.position, Quaternion.identity);
 
         Vector3 spawnPos = startAnchor != null ? startAnchor.position : transform.position;
-
         var queryType = dungeonQuery.GetType();
-        var method = queryType.GetMethod("GetRandomCellOfType");
+        var isMainPathMethod= queryType.GetMethod("IsMainPath");
 
-        if(method != null)
+        if(isMainPathMethod != null)
         {
-            object result = method.Invoke(dungeonQuery,new object[]{"Room"});
-            if(result is Vector3 roomPos){
-                spawnPos = roomPos;
+            for(int x = -50; x<=50;x+=2)
+            {
+                for(int z = -50;z<=50;z+=2)
+                {
+
+                    Vector3 center = startAnchor!= null ? startAnchor.position: transform.position;
+                    Vector3 testPos = center + new Vector3(x,0,z);
+
+
+                    bool isMain = (bool)isMainPathMethod.Invoke(dungeonQuery,new object[] {testPos});
+                    if(isMain)
+                    {
+                        spawnPos=testPos;
+                        Debug.Log("Found main path at: "+spawnPos );
+                        
+                        Debug.Log("Test: " + testPos + " => " + isMain);
+                        goto FOUND;
+                    }
+                }
+                
             }
         }
+        FOUND:
+
+   
+               
+               var pathMethod = queryType.GetMethod("GetMainPath");
+               if(pathMethod != null)
+               {
+                var path = pathMethod.Invoke(dungeonQuery,null) as System.Collections.IEnumerable;
+                if(path != null)
+                {
+                    foreach (var node in path)
+                    {
+                        var nodeType = node.GetType();
+                        var posProp = nodeType.GetProperty("WorldPosition");
+
+                        if(posProp != null)
+                        {
+                            spawnPos = (Vector3)posProp.GetValue(node);
+                            break;
+                        }
+                    }
+                }
+               }
+
+
         GameObject newEntry = Instantiate(entryPrefab,spawnPos,Quaternion.identity);
 
 

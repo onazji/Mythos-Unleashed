@@ -1418,17 +1418,17 @@ PrefabInstance:
     - target: {fileID: 1137535785635986062, guid: 9edcf7e494cf3e640b18cb7495fb179a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.479419
+      value: -5.3190145
       objectReference: {fileID: 0}
     - target: {fileID: 1137535785635986062, guid: 9edcf7e494cf3e640b18cb7495fb179a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.057273
+      value: 3.5877864
       objectReference: {fileID: 0}
     - target: {fileID: 1137535785635986062, guid: 9edcf7e494cf3e640b18cb7495fb179a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -26.533049
+      value: -23.372644
       objectReference: {fileID: 0}
     - target: {fileID: 1137535785635986062, guid: 9edcf7e494cf3e640b18cb7495fb179a,
         type: 3}
@@ -1453,17 +1453,17 @@ PrefabInstance:
     - target: {fileID: 1141651450768826682, guid: 9edcf7e494cf3e640b18cb7495fb179a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.479419
+      value: -5.3190145
       objectReference: {fileID: 0}
     - target: {fileID: 1141651450768826682, guid: 9edcf7e494cf3e640b18cb7495fb179a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.057273
+      value: 3.5877864
       objectReference: {fileID: 0}
     - target: {fileID: 1141651450768826682, guid: 9edcf7e494cf3e640b18cb7495fb179a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -26.533049
+      value: -23.372644
       objectReference: {fileID: 0}
     - target: {fileID: 1141651450768826682, guid: 9edcf7e494cf3e640b18cb7495fb179a,
         type: 3}
@@ -1584,7 +1584,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886251e9a18ece04ea8e61686c173e1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CameraDistance: 12.69162
+  CameraDistance: 6.370811
   DeadZoneDepth: 0
   Composition:
     ScreenPosition: {x: 0, y: 0}

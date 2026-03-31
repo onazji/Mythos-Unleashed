@@ -8903,8 +8903,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06d548d356425a740a32ce54f50f85df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetScene: Maze_WindWard
-  targetSpawnPointName: FromMaze
+  targetScene: WindWard
+  targetSpawnPointName: MazeSpawnpoint
   useAsyncLoader: 1
   fadeDuration: 0.8
   requiredTag: Player

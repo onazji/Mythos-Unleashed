@@ -91,12 +91,12 @@ namespace Mythos.Unleashed.Runtime.Audio
         {
             List<AudioClip> pool = null;
 
-            if (sceneName.Contains("MainMenu"))
-                pool = mainMenuTracks;
-            else if (sceneName.Contains("Museum"))
-                pool = museumTracks;
-            else if (sceneName.Contains("Maze"))
-                pool = mazeTracks;
+           if (sceneName.Contains("MainMenu"))
+    pool = mainMenuTracks;
+else if (sceneName.Contains("Museum"))
+    pool = museumTracks;
+else if (sceneName.Contains("Maze") || sceneName.Contains("Ward"))
+    pool = mazeTracks;
 
             if (pool == null || pool.Count == 0)
             {

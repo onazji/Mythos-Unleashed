@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace DungeonArchitect.Flow.Items
 {
-    [SerializeField]
+    // [SerializeField]
     public class FlowItemMetadata
     {
         public FlowGraphItemType itemType;

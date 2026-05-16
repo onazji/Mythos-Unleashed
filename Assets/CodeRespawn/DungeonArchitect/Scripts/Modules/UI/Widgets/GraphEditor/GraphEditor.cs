@@ -1691,7 +1691,7 @@ namespace DungeonArchitect.UI.Widgets.GraphEditors
     [Serializable]
     public class GraphEvent<T> where T : EventArgs
     {
-        [SerializeField]
+        //[SerializeField]
         private event EventHandler<T> _Event;
 
         [SerializeField]

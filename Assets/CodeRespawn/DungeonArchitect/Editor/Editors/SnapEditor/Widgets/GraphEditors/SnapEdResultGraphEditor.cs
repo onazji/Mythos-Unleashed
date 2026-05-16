@@ -21,9 +21,9 @@ namespace DungeonArchitect.Editors.SnapFlow
 
     public class SnapEdResultGraphEditor : GraphEditor
     {
-        [SerializeField]
+        
+        [field: SerializeField]
         public SnapEdResultGraphEditorConfig ResultGraphPanelConfig { get; private set; }
-
         public override void Init(Graph graph, Rect editorBounds, UnityEngine.Object assetObject, UISystem uiSystem)
         {
             base.Init(graph, editorBounds, assetObject, uiSystem);

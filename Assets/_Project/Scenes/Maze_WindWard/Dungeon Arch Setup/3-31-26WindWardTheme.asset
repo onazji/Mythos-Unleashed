@@ -183,7 +183,7 @@ MonoBehaviour:
   canBeSelected: 1
   canBeMoved: 1
   selected: 0
-  zIndex: 1052
+  zIndex: 1102
   inputPins:
   - {fileID: 8122814227148840635}
   outputPins:
@@ -979,7 +979,7 @@ MonoBehaviour:
   canBeSelected: 1
   canBeMoved: 1
   selected: 0
-  zIndex: 1089
+  zIndex: 1107
   inputPins: []
   outputPins:
   - {fileID: 7301294946256437065}
@@ -1552,14 +1552,14 @@ MonoBehaviour:
   bounds:
     serializedVersion: 2
     x: 1535.1682
-    y: -182.15323
+    y: -185.32553
     width: 120
     height: 50
   canBeDeleted: 1
   canBeSelected: 1
   canBeMoved: 1
   selected: 0
-  zIndex: 1097
+  zIndex: 1133
   inputPins: []
   outputPins:
   - {fileID: 2019549688002442660}
@@ -1602,8 +1602,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1155.5728
     y: 392.07068
-    width: 322.14737
-    height: 48.350098
+    width: 347.44406
+    height: 50.723656
   canBeDeleted: 1
   canBeSelected: 1
   canBeMoved: 1
@@ -2147,18 +2147,18 @@ MonoBehaviour:
   m_Name: MarkerNode_f509f284-9fc9-42c4-ac24-7e9b1fb906c3
   m_EditorClassIdentifier: 
   id: f509f284-9fc9-42c4-ac24-7e9b1fb906c3
-  caption: Boss
+  caption: BOSS BATTLE
   bounds:
     serializedVersion: 2
     x: 1419.5378
-    y: 114.37453
+    y: 112.78838
     width: 120
     height: 50
   canBeDeleted: 1
   canBeSelected: 1
   canBeMoved: 1
-  selected: 0
-  zIndex: 1055
+  selected: 1
+  zIndex: 1135
   inputPins: []
   outputPins:
   - {fileID: -5575020167269932704}
@@ -2388,8 +2388,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1785.7375
     y: 698.134
-    width: 435.12332
-    height: 48.350098
+    width: 469.87872
+    height: 50.723656
   canBeDeleted: 1
   canBeSelected: 1
   canBeMoved: 1
@@ -2802,7 +2802,7 @@ MonoBehaviour:
   canBeSelected: 1
   canBeMoved: 1
   selected: 0
-  zIndex: 1098
+  zIndex: 1128
   inputPins:
   - {fileID: 7921106597478772947}
   outputPins:
@@ -3536,14 +3536,14 @@ MonoBehaviour:
   bounds:
     serializedVersion: 2
     x: 1753.5433
-    y: -92.46927
+    y: -94.05541
     width: 120
     height: 120
   canBeDeleted: 1
   canBeSelected: 1
   canBeMoved: 1
-  selected: 1
-  zIndex: 1099
+  selected: 0
+  zIndex: 1132
   inputPins:
   - {fileID: -8471388811339194759}
   outputPins:
@@ -3898,8 +3898,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1590.1335
     y: 786.7798
-    width: 263.66156
-    height: 48.350098
+    width: 277.16718
+    height: 49.872425
   canBeDeleted: 1
   canBeSelected: 1
   canBeMoved: 1
@@ -3936,7 +3936,7 @@ MonoBehaviour:
   canBeSelected: 1
   canBeMoved: 1
   selected: 0
-  zIndex: 1062
+  zIndex: 1105
   inputPins: []
   outputPins:
   - {fileID: 7140214737834154288}
@@ -4297,7 +4297,7 @@ MonoBehaviour:
   indexCounter:
     index: 92
   topZIndex:
-    index: 1099
+    index: 1135
   nodes:
   - {fileID: -7613491649348855151}
   - {fileID: 3185520184091121584}
@@ -5364,7 +5364,7 @@ MonoBehaviour:
   canBeSelected: 1
   canBeMoved: 1
   selected: 0
-  zIndex: 1050
+  zIndex: 1104
   inputPins:
   - {fileID: 7864103688950857679}
   outputPins:
@@ -6079,8 +6079,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1599.2083
     y: 395.1467
-    width: 295.5536
-    height: 48.350098
+    width: 318.62378
+    height: 50.723656
   canBeDeleted: 1
   canBeSelected: 1
   canBeMoved: 1
@@ -7309,8 +7309,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 402.25018
     y: 385.75574
-    width: 494.4275
-    height: 50.339188
+    width: 500.76096
+    height: 50.723656
   canBeDeleted: 1
   canBeSelected: 1
   canBeMoved: 1
@@ -7388,7 +7388,7 @@ MonoBehaviour:
   canBeSelected: 1
   canBeMoved: 1
   selected: 0
-  zIndex: 1054
+  zIndex: 1134
   inputPins:
   - {fileID: -5802279129980218727}
   outputPins:

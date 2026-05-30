@@ -156,7 +156,6 @@ EditorBuildSettings:
     path: Assets/_Project/Scenes/Boss_WindWard/Boss_WindWard.unity
     guid: 89f04b1db44807a48ad4c4cef37b9720
   - enabled: 0
-    path: Assets/_Project/Scenes/Maze_WindWard/MazeGaunlet/Maze_WindWard.unity
+    path: Assets/_Project/Scenes/Maze_WindWard/DungeonArchitect Assets/Maze_WindWard.unity
     guid: 1f4d4d5ce4b000544bf107659b4eb272
   m_configObjects: {}
-  m_UseUCBPForAssetBundles: 0

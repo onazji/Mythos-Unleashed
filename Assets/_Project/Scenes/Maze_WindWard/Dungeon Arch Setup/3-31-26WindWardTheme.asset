@@ -175,15 +175,15 @@ MonoBehaviour:
   caption: Game Object Node
   bounds:
     serializedVersion: 2
-    x: 1217.3961
-    y: 197.8117
+    x: 1700.1493
+    y: -96.87165
     width: 120
     height: 120
   canBeDeleted: 1
   canBeSelected: 1
   canBeMoved: 1
-  selected: 0
-  zIndex: 1102
+  selected: 1
+  zIndex: 1149
   inputPins:
   - {fileID: 8122814227148840635}
   outputPins:
@@ -971,15 +971,15 @@ MonoBehaviour:
   caption: TREASURE START
   bounds:
     serializedVersion: 2
-    x: 1758.8258
-    y: -173.18152
+    x: 1840.2842
+    y: 105.92935
     width: 120
     height: 50
   canBeDeleted: 1
   canBeSelected: 1
   canBeMoved: 1
   selected: 0
-  zIndex: 1107
+  zIndex: 1142
   inputPins: []
   outputPins:
   - {fileID: 7301294946256437065}
@@ -1602,8 +1602,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1155.5728
     y: 392.07068
-    width: 347.44406
-    height: 50.723656
+    width: 349.63403
+    height: 50.834885
   canBeDeleted: 1
   canBeSelected: 1
   canBeMoved: 1
@@ -2150,15 +2150,15 @@ MonoBehaviour:
   caption: BOSS BATTLE
   bounds:
     serializedVersion: 2
-    x: 1419.5378
-    y: 112.78838
+    x: 1382.2689
+    y: -180.03171
     width: 120
     height: 50
   canBeDeleted: 1
   canBeSelected: 1
   canBeMoved: 1
-  selected: 1
-  zIndex: 1135
+  selected: 0
+  zIndex: 1136
   inputPins: []
   outputPins:
   - {fileID: -5575020167269932704}
@@ -2388,8 +2388,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1785.7375
     y: 698.134
-    width: 469.87872
-    height: 50.723656
+    width: 472.48547
+    height: 50.834885
   canBeDeleted: 1
   canBeSelected: 1
   canBeMoved: 1
@@ -3535,15 +3535,15 @@ MonoBehaviour:
   caption: Game Object Node
   bounds:
     serializedVersion: 2
-    x: 1753.5433
-    y: -94.05541
+    x: 1851.7698
+    y: 185.0554
     width: 120
     height: 120
   canBeDeleted: 1
   canBeSelected: 1
   canBeMoved: 1
   selected: 0
-  zIndex: 1132
+  zIndex: 1141
   inputPins:
   - {fileID: -8471388811339194759}
   outputPins:
@@ -3594,15 +3594,15 @@ MonoBehaviour:
   caption: Game Object Node
   bounds:
     serializedVersion: 2
-    x: 1604.6498
-    y: 186.70126
+    x: 1843.0315
+    y: -99.596886
     width: 120
     height: 120
   canBeDeleted: 1
   canBeSelected: 1
   canBeMoved: 1
   selected: 0
-  zIndex: 1060
+  zIndex: 1145
   inputPins:
   - {fileID: -6477758170716659827}
   outputPins:
@@ -3898,8 +3898,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1590.1335
     y: 786.7798
-    width: 277.16718
-    height: 49.872425
+    width: 286.0331
+    height: 50.834885
   canBeDeleted: 1
   canBeSelected: 1
   canBeMoved: 1
@@ -4297,7 +4297,7 @@ MonoBehaviour:
   indexCounter:
     index: 92
   topZIndex:
-    index: 1135
+    index: 1149
   nodes:
   - {fileID: -7613491649348855151}
   - {fileID: 3185520184091121584}
@@ -6079,8 +6079,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1599.2083
     y: 395.1467
-    width: 318.62378
-    height: 50.723656
+    width: 320.73032
+    height: 50.834885
   canBeDeleted: 1
   canBeSelected: 1
   canBeMoved: 1
@@ -6236,15 +6236,15 @@ MonoBehaviour:
   caption: Exit
   bounds:
     serializedVersion: 2
-    x: 1582.7377
-    y: 119.90543
+    x: 1821.1187
+    y: -177.17383
     width: 120
     height: 50
   canBeDeleted: 1
   canBeSelected: 1
   canBeMoved: 1
   selected: 0
-  zIndex: 1059
+  zIndex: 1146
   inputPins: []
   outputPins:
   - {fileID: 4005064806007504443}
@@ -7309,8 +7309,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 402.25018
     y: 385.75574
-    width: 500.76096
-    height: 50.723656
+    width: 473.52496
+    height: 49.00249
   canBeDeleted: 1
   canBeSelected: 1
   canBeMoved: 1
@@ -7380,15 +7380,15 @@ MonoBehaviour:
   caption: Game Object Node
   bounds:
     serializedVersion: 2
-    x: 1411.1499
-    y: 202.92744
+    x: 1379.205
+    y: -87.23058
     width: 120
     height: 120
   canBeDeleted: 1
   canBeSelected: 1
   canBeMoved: 1
   selected: 0
-  zIndex: 1134
+  zIndex: 1137
   inputPins:
   - {fileID: -5802279129980218727}
   outputPins:
@@ -8047,15 +8047,15 @@ MonoBehaviour:
   caption: Entry
   bounds:
     serializedVersion: 2
-    x: 1218.9681
-    y: 87.740295
+    x: 1675.3676
+    y: -180.58936
     width: 120
     height: 50
   canBeDeleted: 1
   canBeSelected: 1
   canBeMoved: 1
   selected: 0
-  zIndex: 1053
+  zIndex: 1148
   inputPins: []
   outputPins:
   - {fileID: 351849276075215214}

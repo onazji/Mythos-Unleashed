@@ -654,13 +654,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pinType: 0
   node: {fileID: 2599577391702372912}
-  position: {x: 73.985214, y: 23.043304}
+  position: {x: 74.46, y: 23.265}
   boundsOffset:
     serializedVersion: 2
-    x: -73.985214
-    y: -23.043304
-    width: 147.97043
-    height: 46.08661
+    x: -74.46
+    y: -23.265
+    width: 148.92
+    height: 46.53
   tangent: {x: 0, y: -1}
   tangentStrength: 50
   Padding: {x: 10, y: 10}
@@ -2818,8 +2818,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1289.8357
     y: 301.5391
-    width: 151.78813
-    height: 47.560898
+    width: 141.16
+    height: 46.53
   canBeDeleted: 1
   canBeSelected: 1
   canBeMoved: 1
@@ -4017,8 +4017,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1086.0432
     y: 302.07147
-    width: 147.97043
-    height: 46.08661
+    width: 148.92
+    height: 46.53
   canBeDeleted: 1
   canBeSelected: 1
   canBeMoved: 1
@@ -4158,13 +4158,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pinType: 1
   node: {fileID: 2599577391702372912}
-  position: {x: 73.985214, y: 23.043304}
+  position: {x: 74.46, y: 23.265}
   boundsOffset:
     serializedVersion: 2
-    x: -73.985214
-    y: -23.043304
-    width: 147.97043
-    height: 46.08661
+    x: -74.46
+    y: -23.265
+    width: 148.92
+    height: 46.53
   tangent: {x: 0, y: -1}
   tangentStrength: 50
   Padding: {x: 12, y: 12}
@@ -4822,13 +4822,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pinType: 0
   node: {fileID: -1655387856193715694}
-  position: {x: 75.894066, y: 23.780449}
+  position: {x: 70.58, y: 23.265}
   boundsOffset:
     serializedVersion: 2
-    x: -75.894066
-    y: -23.780449
-    width: 151.78813
-    height: 47.560898
+    x: -70.58
+    y: -23.265
+    width: 141.16
+    height: 46.53
   tangent: {x: 0, y: -1}
   tangentStrength: 50
   Padding: {x: 10, y: 10}
@@ -5037,13 +5037,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pinType: 1
   node: {fileID: -1655387856193715694}
-  position: {x: 75.894066, y: 23.780449}
+  position: {x: 70.58, y: 23.265}
   boundsOffset:
     serializedVersion: 2
-    x: -75.894066
-    y: -23.780449
-    width: 151.78813
-    height: 47.560898
+    x: -70.58
+    y: -23.265
+    width: 141.16
+    height: 46.53
   tangent: {x: 0, y: -1}
   tangentStrength: 50
   Padding: {x: 12, y: 12}

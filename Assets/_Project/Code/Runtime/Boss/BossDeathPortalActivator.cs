@@ -98,6 +98,7 @@ namespace Mythos.Unleashed.Runtime
         private void ActivatePortalAndReward()
         {
             _portalActivated = true;
+            GameState.Instance?.MarkWindWardBossDefeated();
 
             returnPortal.SetActive(true);
             relicReward.SetActive(true);

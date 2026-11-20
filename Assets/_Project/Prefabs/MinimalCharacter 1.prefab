@@ -640,7 +640,7 @@ MonoBehaviour:
     type: 2}
   AutoEquipOnlyIfMainInventoryIsEmpty: 0
   AutoEquipOnlyIfEquipmentInventoryIsEmpty: 0
-  AutoEquipOnRespawn: 1
+  AutoEquipOnRespawn: 0
   CharacterHandleWeapon: {fileID: 114510539804127886}
 --- !u!114 &9165270163092382011
 MonoBehaviour:

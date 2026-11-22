@@ -8,6 +8,7 @@ public class GameState : MonoBehaviour
 
     public int TotalShards { get; private set; }
     public bool WindWardBossDefeated { get; private set; }
+    public bool WindSanctumSeedOnDisplay { get; private set; }
 
     private void Awake()
     {
@@ -32,5 +33,21 @@ public class GameState : MonoBehaviour
         WindWardBossDefeated = true;
         PlayerPrefs.SetInt(WindWardBossDefeatedKey, 1);
         PlayerPrefs.Save();
+    }
+
+    public bool TryPlaceWindSanctumSeedOnDisplay()
+    {
+        if (WindSanctumSeedOnDisplay) return false;
+
+        WindSanctumSeedOnDisplay = true;
+        return true;
+    }
+
+    public bool TryRemoveWindSanctumSeedFromDisplay()
+    {
+        if (!WindSanctumSeedOnDisplay) return false;
+
+        WindSanctumSeedOnDisplay = false;
+        return true;
     }
 }
